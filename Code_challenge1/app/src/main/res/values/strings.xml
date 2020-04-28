@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Code_challenge1</string>
+    <string name="orange_text_view">This is an orange Textview</string>
+    <string name="green_text_view">This is a green Textview</string>
+    <string name="this_is_a_green">This is a green</string>
+    <string name="this_is_a_button">This is a button</string>
+    <string name="this_is_a_green_button">This is a green button</string>
+    <string name="notify_me">Notify me :)</string>
+    <string name="auto_backop">Auto backop</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+</resources>

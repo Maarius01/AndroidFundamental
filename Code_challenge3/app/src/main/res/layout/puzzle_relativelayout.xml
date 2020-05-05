@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <View
+        android:id="@+id/A"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="@color/fuxia"></View>
+    <View
+        android:id="@+id/B"
+        android:layout_width="88dp"
+        android:layout_height="80dp"
+        android:background="@color/purrple"></View>
+    <View
+        android:id="@+id/C"
+        android:layout_below="@id/A"
+        android:layout_width="216dp"
+        android:layout_height="80dp"
+        android:background="@color/bej"></View>
+    <View
+        android:id="@+id/D"
+        android:layout_below="@id/A"
+        android:layout_toRightOf="@id/C"
+        android:layout_width="216dp"
+        android:layout_height="80dp"
+        android:background="@color/light_green"></View>
+
+    <View
+        android:id="@+id/E"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_above="@id/G"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="72dp"
+        android:background="@color/blue"></View>
+
+    <View
+        android:id="@+id/F"
+        android:layout_below="@id/D"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="@color/strident_green"></View>
+
+    <View
+        android:id="@+id/G"
+        android:layout_below="@id/D"
+        android:layout_alignParentRight="true"
+        android:layout_width="88dp"
+        android:layout_height="80dp"
+        android:background="@color/wierd_green"></View>
+    <View
+        android:layout_below="@id/F"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="@color/mocirla_blue"></View>
+    <View
+        android:id="@+id/H"
+        android:layout_below="@id/G"
+        android:layout_width="88dp"
+        android:layout_height="80dp"
+        android:background="@color/bej"></View>
+
+    <View
+        android:id="@+id/I"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_below="@id/F"
+        android:layout_toRightOf="@id/H"
+        android:background="@color/purrple"></View>
+
+    <View
+        android:id="@+id/J"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:background="@color/fuxia"
+        android:layout_below="@id/F"
+        android:layout_centerHorizontal="true"></View>
+    <View
+        android:id="@+id/K"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:background="@color/fuxia"
+        android:layout_below="@id/F"
+        android:layout_toRightOf="@id/H"
+        android:layout_margin="30dp"></View>
+   <View
+       android:id="@+id/L"
+       android:layout_below="@id/F"
+       android:layout_toRightOf="@id/J"
+       android:layout_width="102dp"
+       android:layout_height="80dp"
+       android:background="@color/bej"></View>
+
+</RelativeLayout>

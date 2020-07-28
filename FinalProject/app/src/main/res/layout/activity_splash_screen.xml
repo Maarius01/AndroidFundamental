@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SplashScreen"
+    android:background="@android:color/holo_red_light">
+
+    <ImageView
+        android:id="@+id/plane"
+        android:layout_width="103dp"
+        android:layout_height="105dp"
+        android:layout_centerInParent="true"
+        android:src="@drawable/plane"></ImageView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textSize="32sp"
+        android:text="Loading.."
+        android:layout_below="@id/plane"
+        android:layout_centerInParent="true"></TextView>
+
+
+</RelativeLayout>

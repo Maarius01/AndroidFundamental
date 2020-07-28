@@ -46,9 +46,9 @@ public abstract class TripDatabase extends RoomDatabase {
 
         @Override
         protected Void doInBackground(Void... voids) {
-            tripDao.insert(new Trip("name 1", "destination 1", "type 1", 1, "date 1", "date 2", 1, "urlImage 1"));
-            tripDao.insert(new Trip("name 2", "destination 2", "type 2", 2, "date 3", "date 4", 2, "urlImage 2"));
-            tripDao.insert(new Trip("name 3", "destination 3", "type 3", 3, "date 5", "date 6", 3, "urlImage 3"));
+            tripDao.insert(new Trip("name 1", "destination 1", "type 1", "1", "date 1", "date 2", "1", "urlImage 1"));
+            tripDao.insert(new Trip("name 2", "destination 2", "type 2", "2", "date 3", "date 4", "2", "urlImage 2"));
+            tripDao.insert(new Trip("name 3", "destination 3", "type 3", "3", "date 5", "date 6", "3", "urlImage 3"));
             return null;
         }
     }

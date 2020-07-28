@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".AddEditTripActivity">
+
+    <EditText
+        android:id="@+id/edit_text_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Trip Name"
+        android:inputType="text"></EditText>
+    <EditText
+        android:id="@+id/edit_text_destination"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Trip Destinantion"
+        android:inputType="text"></EditText>
+    <EditText
+        android:id="@+id/edit_text_type"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Trip Type(City Break,Sea Side,Mountain)"
+        android:inputType="text"></EditText>
+    <EditText
+        android:id="@+id/edit_text_price"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Trip Price"
+        android:inputType="text"></EditText>
+    <EditText
+        android:id="@+id/edit_text_start_date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Trip Start Date"
+        android:inputType="text"></EditText>
+    <EditText
+        android:id="@+id/edit_text_end_date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Trip End Date"
+        android:inputType="text"></EditText>
+    <EditText
+        android:id="@+id/edit_text_rating"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Trip Rating"
+        android:inputType="number"></EditText>
+
+
+</LinearLayout>
+

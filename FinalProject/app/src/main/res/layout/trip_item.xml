@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginEnd="8dp"
+    android:layout_marginStart="8dp"
+    android:layout_marginTop="8dp">
+    
+    <RelativeLayout
+        android:background="@android:color/darker_gray"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="8dp">
+
+        <ImageView
+            android:id="@+id/image_view_picture"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/ic_launcher_round"></ImageView>
+        <TextView
+            android:id="@+id/text_view_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Trip Name"
+            android:layout_toRightOf="@+id/image_view_picture"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:padding="8dp"></TextView>
+        <TextView
+            android:id="@+id/text_view_destination"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Trip Destination"
+            android:layout_below="@+id/text_view_name"
+            android:layout_toRightOf="@+id/image_view_picture"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:padding="8dp"></TextView>
+        <TextView
+            android:id="@+id/text_view_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Trip Price"
+            android:layout_alignParentEnd="true"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:padding="8dp"></TextView>
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

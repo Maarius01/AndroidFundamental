@@ -13,13 +13,13 @@ public class Trip {
     private String name;
     private String destination;
     private String type;
-    private int price;
+    private String price;
     private String startDate;
     private String endDate;
-    private float rating;
+    private String rating;
     private String urlImage;
 
-    public Trip(String name, String destination, String type, int price, String startDate, String endDate, float rating, String urlImage) {
+    public Trip(String name, String destination, String type, String price, String startDate, String endDate, String rating, String urlImage) {
         this.name = name;
         this.destination = destination;
         this.type = type;
@@ -50,7 +50,7 @@ public class Trip {
         return type;
     }
 
-    public int getPrice() {
+    public String getPrice() {
         return price;
     }
 
@@ -62,7 +62,7 @@ public class Trip {
         return endDate;
     }
 
-    public float getRating() {
+    public String getRating() {
         return rating;
     }
 
@@ -82,7 +82,7 @@ public class Trip {
         this.type = type;
     }
 
-    public void setPrice(int price) {
+    public void setPrice(String price) {
         this.price = price;
     }
 
@@ -94,7 +94,7 @@ public class Trip {
         this.endDate = endDate;
     }
 
-    public void setRating(float rating) {
+    public void setRating(String rating) {
         this.rating = rating;
     }
 
